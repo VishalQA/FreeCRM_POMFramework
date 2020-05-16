@@ -11,7 +11,7 @@ import com.crm.qa.pages.LoginPage;
 
 public class LoginPageTest extends TestBase {
 	LoginPage loginpage;
-	HomePage homepage;
+	HomePage homepage ;
 	
 	public LoginPageTest() {
 		super();
@@ -24,22 +24,25 @@ public class LoginPageTest extends TestBase {
 		
 		
 	}
-//	@Test (priority =1)
-//	public void loginpagetitletest() {
-//		String title = loginpage.validateloginpagetitle();
-//		Assert.assertEquals(title, "Cogmento CRM");
-//	}
+	@Test (priority =1)
+	public void loginPageTitleTest() {
+		String title  = loginpage.validateLoginPageTitle();
+		
+		
+		Assert.assertEquals(title, "Cogmento CRM");
+	}
 	
-	@Test 
+	@Test  (priority =2)
 	public void logintest() {
 		homepage = loginpage.login(prop.getProperty("email"), prop.getProperty("password"));
+	
 		
 	}
 	
 	
-	@AfterMethod
-	public void tearDown() {
-		driver.close();
-	}
+//	@AfterMethod
+//	public void tearDown() {
+//		driver.quit();
+//	}
 
 }

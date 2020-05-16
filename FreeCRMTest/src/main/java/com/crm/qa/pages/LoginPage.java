@@ -7,7 +7,9 @@ import org.openqa.selenium.support.PageFactory;
 import com.crm.qa.base.TestBase;
 
 public class LoginPage extends TestBase {
-	
+	String validateLoginPageTitle = null;
+	String un = null;
+	String pwd = null;
 	
 	// page factory  or
 	@FindBy(name = "email")
@@ -17,24 +19,26 @@ public class LoginPage extends TestBase {
 	WebElement  password;
 	
 	@FindBy (xpath = "//div[@class='ui fluid large blue submit button']")
-	WebElement login;
+	WebElement loginBtn;
 	
 	@FindBy (xpath = "//a[contains(text(),'Sign Up')]")
-	WebElement Signup;
+	WebElement signupBtn;
 
 	
+	
 	public LoginPage() {
+		
 		PageFactory.initElements(driver ,this);
 	}
 	
-	public String validateloginpagetitle() {
+	public String validateLoginPageTitle() {
 		return driver.getTitle();
 	}
    
 	public HomePage login(String un , String pwd) {
 		email.sendKeys(un);
 		password.sendKeys(pwd);
-		login.click();
+		loginBtn.click();
 		
 		return new HomePage();
 		
