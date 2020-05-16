@@ -40,7 +40,7 @@ public class LoginPage extends TestBase {
 	public HomePage login(String un , String pwd) {
 //   		System.out.println(driver.equals("null"));
 		email.sendKeys("vishal.mailbox1@gmail.com");
-		password.sendKeys("Gomata1550$");
+		password.sendKeys("Passworld123$");
 		loginBtn.click();
 				return new HomePage();
 		

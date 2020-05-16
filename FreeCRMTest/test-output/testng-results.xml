@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27924" started-at="2020-05-16T19:08:21 IST" finished-at="2020-05-16T19:08:49 IST">
+  <suite name="Default suite" duration-ms="28789" started-at="2020-05-16T21:59:36 IST" finished-at="2020-05-16T22:00:05 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27924" started-at="2020-05-16T19:08:21 IST" finished-at="2020-05-16T19:08:49 IST">
-      <class name="com.crm.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@7a3d45bd]" name="setUp" is-config="true" duration-ms="14894" started-at="2020-05-16T19:08:21 IST" finished-at="2020-05-16T19:08:36 IST">
+    <test name="Default test" duration-ms="28789" started-at="2020-05-16T21:59:36 IST" finished-at="2020-05-16T22:00:05 IST">
+      <class name="com.crm.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@7a3d45bd]" name="setUp" is-config="true" duration-ms="14738" started-at="2020-05-16T21:59:36 IST" finished-at="2020-05-16T21:59:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@7a3d45bd]" name="loginPageTitleTest" duration-ms="125" started-at="2020-05-16T19:08:36 IST" finished-at="2020-05-16T19:08:36 IST">
+        <test-method status="PASS" signature="verifyhomepagetitletest()[pri:1, instance:com.crm.qa.testcases.HomePageTest@7a3d45bd]" name="verifyhomepagetitletest" duration-ms="11" started-at="2020-05-16T21:59:50 IST" finished-at="2020-05-16T21:59:50 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginPageTitleTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@7a3d45bd]" name="setUp" is-config="true" duration-ms="12516" started-at="2020-05-16T19:08:36 IST" finished-at="2020-05-16T19:08:48 IST">
+        </test-method> <!-- verifyhomepagetitletest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@7a3d45bd]" name="setUp" is-config="true" duration-ms="12771" started-at="2020-05-16T21:59:50 IST" finished-at="2020-05-16T22:00:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="logintest()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@7a3d45bd]" name="logintest" duration-ms="348" started-at="2020-05-16T19:08:48 IST" finished-at="2020-05-16T19:08:49 IST">
+        <test-method status="PASS" signature="verifyusernametest()[pri:2, instance:com.crm.qa.testcases.HomePageTest@7a3d45bd]" name="verifyusernametest" duration-ms="1238" started-at="2020-05-16T22:00:03 IST" finished-at="2020-05-16T22:00:05 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logintest -->
-      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+        </test-method> <!-- verifyusernametest -->
+      </class> <!-- com.crm.qa.testcases.HomePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
