@@ -4,6 +4,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.crm.qa.base.TestBase;
+import com.crm.qa.pages.ContactsPage;
 import com.crm.qa.pages.HomePage;
 import com.crm.qa.pages.LoginPage;
 
@@ -12,6 +13,8 @@ import junit.framework.Assert;
 public class HomePageTest extends TestBase{
 	LoginPage loginpage;
 	HomePage homepage;
+	ContactsPage contactspage;
+	
 	
 	public  HomePageTest() {
 		super();
@@ -21,6 +24,7 @@ public class HomePageTest extends TestBase{
 	public void setUp() {
 		initialization();
 		loginpage = new LoginPage();
+		contactspage  = new ContactsPage();
 		homepage = loginpage.login(prop.getProperty("email"), prop.getProperty("password"));
 		
 	}
@@ -35,5 +39,10 @@ public class HomePageTest extends TestBase{
 	public void verifyusernametest() {
 		Assert.assertTrue(homepage.verifyusername());
 		
+	}
+	
+	@Test (priority =3)
+	public void verifycontactlinktest() {
+		contactspage = homepage.clickoncontactslink();
 	}
 }

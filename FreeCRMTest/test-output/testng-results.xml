@@ -1,29 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28789" started-at="2020-05-16T21:59:36 IST" finished-at="2020-05-16T22:00:05 IST">
+  <suite name="FreeCRM Application Test Automation Test Suite" duration-ms="73882" started-at="2020-05-16T22:27:12 IST" finished-at="2020-05-16T22:28:26 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="28789" started-at="2020-05-16T21:59:36 IST" finished-at="2020-05-16T22:00:05 IST">
+    <test name="FreeCRM Application Test Cases" duration-ms="73882" started-at="2020-05-16T22:27:12 IST" finished-at="2020-05-16T22:28:26 IST">
       <class name="com.crm.qa.testcases.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@7a3d45bd]" name="setUp" is-config="true" duration-ms="14738" started-at="2020-05-16T21:59:36 IST" finished-at="2020-05-16T21:59:50 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@77ec78b9]" name="setUp" is-config="true" duration-ms="12900" started-at="2020-05-16T22:27:39 IST" finished-at="2020-05-16T22:27:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyhomepagetitletest()[pri:1, instance:com.crm.qa.testcases.HomePageTest@7a3d45bd]" name="verifyhomepagetitletest" duration-ms="11" started-at="2020-05-16T21:59:50 IST" finished-at="2020-05-16T21:59:50 IST">
+        <test-method status="PASS" signature="verifyhomepagetitletest()[pri:1, instance:com.crm.qa.testcases.HomePageTest@77ec78b9]" name="verifyhomepagetitletest" duration-ms="10" started-at="2020-05-16T22:27:52 IST" finished-at="2020-05-16T22:27:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyhomepagetitletest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@7a3d45bd]" name="setUp" is-config="true" duration-ms="12771" started-at="2020-05-16T21:59:50 IST" finished-at="2020-05-16T22:00:03 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@77ec78b9]" name="setUp" is-config="true" duration-ms="16941" started-at="2020-05-16T22:27:52 IST" finished-at="2020-05-16T22:28:09 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyusernametest()[pri:2, instance:com.crm.qa.testcases.HomePageTest@7a3d45bd]" name="verifyusernametest" duration-ms="1238" started-at="2020-05-16T22:00:03 IST" finished-at="2020-05-16T22:00:05 IST">
+        <test-method status="PASS" signature="verifyusernametest()[pri:2, instance:com.crm.qa.testcases.HomePageTest@77ec78b9]" name="verifyusernametest" duration-ms="2297" started-at="2020-05-16T22:28:09 IST" finished-at="2020-05-16T22:28:11 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyusernametest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@77ec78b9]" name="setUp" is-config="true" duration-ms="12958" started-at="2020-05-16T22:28:11 IST" finished-at="2020-05-16T22:28:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifycontactlinktest()[pri:3, instance:com.crm.qa.testcases.HomePageTest@77ec78b9]" name="verifycontactlinktest" duration-ms="1550" started-at="2020-05-16T22:28:24 IST" finished-at="2020-05-16T22:28:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycontactlinktest -->
       </class> <!-- com.crm.qa.testcases.HomePageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@1e7c7811]" name="setUp" is-config="true" duration-ms="13947" started-at="2020-05-16T22:27:12 IST" finished-at="2020-05-16T22:27:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@1e7c7811]" name="loginPageTitleTest" duration-ms="22" started-at="2020-05-16T22:27:26 IST" finished-at="2020-05-16T22:27:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@1e7c7811]" name="setUp" is-config="true" duration-ms="12888" started-at="2020-05-16T22:27:26 IST" finished-at="2020-05-16T22:27:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logintest()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@1e7c7811]" name="logintest" duration-ms="330" started-at="2020-05-16T22:27:39 IST" finished-at="2020-05-16T22:27:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+    </test> <!-- FreeCRM Application Test Cases -->
+  </suite> <!-- FreeCRM Application Test Automation Test Suite -->
 </testng-results>

@@ -33,9 +33,9 @@ public class HomePage extends TestBase {
 		return usernamelable.isDisplayed();
 		
 	}
-	public  Contacts clickoncontactslink() {
+	public  ContactsPage clickoncontactslink() {
 		contactslink.click();
-		return new Contacts();
+		return new ContactsPage();
 	}
 	
 	public Deals clickondealslink() {
