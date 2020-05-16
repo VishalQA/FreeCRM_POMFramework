@@ -7,7 +7,6 @@
         <methods>
           <include name="setUp"/>
           <include name="logintest"/>
-          <include name="loginPageTitleTest"/>
         </methods>
       </class> <!-- com.crm.qa.testcases.LoginPageTest -->
     </classes>

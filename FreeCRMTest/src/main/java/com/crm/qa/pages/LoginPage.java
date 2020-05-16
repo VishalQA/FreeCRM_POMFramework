@@ -7,9 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 import com.crm.qa.base.TestBase;
 
 public class LoginPage extends TestBase {
-	String validateLoginPageTitle = null;
-	String un = null;
-	String pwd = null;
+	
+
 	
 	// page factory  or
 	@FindBy(name = "email")
@@ -24,23 +23,26 @@ public class LoginPage extends TestBase {
 	@FindBy (xpath = "//a[contains(text(),'Sign Up')]")
 	WebElement signupBtn;
 
-	
-	
-	public LoginPage() {
 		
+	public LoginPage() {	
 		PageFactory.initElements(driver ,this);
 	}
 	
+	@SuppressWarnings("unlikely-arg-type")
 	public String validateLoginPageTitle() {
+		System.out.println("Hi");
+		System.out.println(driver.equals("null"));
+		System.out.println(driver.getTitle());
 		return driver.getTitle();
-	}
-   
-	public HomePage login(String un , String pwd) {
-		email.sendKeys(un);
-		password.sendKeys(pwd);
-		loginBtn.click();
 		
-		return new HomePage();
+	}
+   	@SuppressWarnings("unlikely-arg-type")
+	public HomePage login(String un , String pwd) {
+//   		System.out.println(driver.equals("null"));
+		email.sendKeys("vishal.mailbox1@gmail.com");
+		password.sendKeys("Gomata1550$");
+		loginBtn.click();
+				return new HomePage();
 		
 	}
 }
